@@ -12,6 +12,6 @@ CreateThread(function()
         for k, v in pairs(Config.Buttons) do
             SetDiscordRichPresenceAction()
         end
-        Wait(Config.UodateInterval * 1000)
+        Wait(Config.UpdateInterval * 1000)
     end
 end)

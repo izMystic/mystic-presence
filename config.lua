@@ -1,6 +1,6 @@
 Config = {}
 
-Config.UodateInterval = 30 -- time to update the presence (in seconds)
+Config.UpdateInterval = 30 -- time to update the presence (in seconds)
 Config.RichAppId = '' -- application id from discord dev portal
 
 Config.LargeImage = '' -- asset from discord dev portal (large)
