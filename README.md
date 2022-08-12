@@ -9,6 +9,7 @@ simple discord rich presence script
 5. put any text you want in onfig.LargeImageText (it will show when hovering the image)
 6. copy steps 4 & 5 for Config.SmallImage & Config.SmallImageText respectively
 7. put any text you want in Config.RichPresence (it will show to the right of the large image when viewing)
+8. put any text/link you want for each of the buttons in Config.Buttons (do not add more than 2, it will not work.)
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0
 International License][cc-by-nc-sa].
