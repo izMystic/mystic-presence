@@ -10,7 +10,7 @@ CreateThread(function()
         SetRichPresence(Config.RichPresence)
 
         for k, v in pairs(Config.Buttons) do
-            SetDiscordRichPresenceAction()
+            SetDiscordRichPresenceAction(k, v.display, v.link)
         end
         Wait(Config.UpdateInterval * 1000)
     end
