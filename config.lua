@@ -13,11 +13,11 @@ Config.RichPresence = '' -- text to display under server name
 
 Config.Buttons = { -- max of 2 buttons
     [0] = {
-        display = 'discord', -- button text
+        text = 'discord', -- button text
         link = 'https://discord.com' -- button link
     },
     [1] = {
-        display = 'fivem',
+        text = 'fivem',
         link = 'https://fivem.net'
     }
 }
